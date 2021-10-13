@@ -1,0 +1,62 @@
+{
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontFamily": "FiraMono Nerd Font",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Andromeda Colorizer",
+  "helium-icon-theme.folders.color": "#ff9df5",
+  "vsicons.dontShowNewVersionMessage": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.rulers": [
+    100
+  ],
+  "editor.fontSize": 14,
+  "material-icon-theme.folders.theme": "specific",
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "#4a4000",
+      "border": "1px solid #fff712",
+      "borderRadius": "2px", 
+      "backgroundColor": "#ffe436",
+      "padding-left": "1px",
+    },
+    {
+      "text": "REVIEW:",
+      "color": "#000000",
+      "border": "1px solid #1a8200",
+      "borderRadius": "2px", 
+      "backgroundColor": "#28c900",
+      "padding-left": "1px"
+    },
+    {
+      "text": "FIXME:",
+      "color": "#ffffff",
+      "border": "1px solid #f266ff",
+      "borderRadius": "2px", 
+      "padding-left": "1px"
+    }
+  ],
+  "editor.fontFamily": "'cascadia code'",
+  "scm.inputFontFamily": "defaultMenlo, Monaco, 'Courier New', monospace",
+  "editor.matchBrackets": "never",
+  "editor.lineHeight": 25,
+  "editor.mouseWheelZoom": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": -1,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true
+}
