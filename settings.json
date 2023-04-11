@@ -1,30 +1,144 @@
 {
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Atom One Dark",
-    "editor.mouseWheelZoom": true,
-    "editor.minimap.enabled": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "terminal.integrated.fontFamily": "monospace",
-    "editor.fontWeight": 100,
-    "editor.fontSize": 13,
-    "files.trimTrailingWhitespace": true,
-    "todo-tree.general.tags": [
-        "BUG",
-        "HACK",
-        "FIXME",
-        "TODO",
-        "XXX",
-        "[ ]",
-        "[x]"
-    ],
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-    "git.autofetch": true,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.mouseWheelZoom": true,
+  "editor.fontWeight": 100,
+  "editor.fontSize": 13,
+  "files.trimTrailingWhitespace": true,
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "cSpell.allowCompoundWords": true,
+  "prettier.proseWrap": "never",
+  "cSpell.userWords": [
+    "APIDTO",
+    "apidtos",
+    "APIV",
+    "bctjm",
+    "centimetre",
+    "chartjs",
+    "DBDTO",
+    "dbdtos",
+    "dtos",
+    "Ffmi",
+    "icmd",
+    "inbody",
+    "lokalise",
+    "maija",
+    "mccs",
+    "millimetre",
+    "otpauth",
+    "plotly",
+    "qrcode",
+    "rfid",
+    "Ssid",
+    "Uids",
+    "uuidv",
+    "xaxis",
+    "yaxis"
+  ],
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "Log": true
+  },
+  "cSpell.enableFiletypes": ["erb", "ruby"],
+  "editor.guides.bracketPairs": true,
+  "editor.linkedEditing": true,
+  "editor.matchBrackets": "never",
+  "workbench.startupEditor": "none",
+  "editor.suggest.localityBonus": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontLigatures": true,
+  "editor.suggestSelection": "first",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "push:command"
+  ],
+  "autoimport.autoComplete": false,
+  "editor.hover.delay": 1300,
+  "editor.unicodeHighlight.allowedCharacters": {
+    " ": true
+  },
+  "gitlens.blame.ignoreWhitespace": true,
+  "gitblame.ignoreWhitespace": true,
+  "editor.find.addExtraSpaceOnTop": false,
+  "workbench.iconTheme": "vscode-icons",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.scopes": ["containers", "document"],
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.confirmSync": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "editor.lightbulb.enabled": false,
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.delimiterInsideMessage": "-",
+  "turboConsoleLog.quote": "`",
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.suggestSmartCommit": false,
+  "tabnine.experimentalAutoImports": true,
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "black",
+      "backgroundColor": "Pink",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "TODO:",
+      "color": "black",
+      "backgroundColor": "yellow"
+      //other styling properties goes here ...
     }
-
+  ],
+  "editor.minimap.maxColumn": 50,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "turboConsoleLog.wrapLogMessage": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "betterAlign.surroundSpace": {
+    "colon": [1, 1],
+    "assignment": [1, 1],
+    "arrow": [1, 1],
+    "comment": 1
+  },
+  "prettier.bracketSameLine": true,
+  "prettier.trailingComma": "none",
+  "prettier.enableDebugLogs": true,
+  "prettier.singleAttributePerLine": true,
+  "workbench.colorCustomizations": {
+    "editor.findMatchBackground": "#0e520096",
+    "editor.findMatchHighlightBackground": "#fa0f423f",
+    "editor.selectionBackground": "#646464a4"
+  },
+  "workbench.colorTheme": "Atom One Dark",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "extensions.ignoreRecommendations": true,
+  "gitlens.views.commitDetails.files.layout": "tree",
 }
