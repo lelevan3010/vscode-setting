@@ -10,11 +10,19 @@
     "command": "editor.emmet.action.balanceOut"
   },
   {
-    "key": "f1",
+    "key": "ctrl+1",
     "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
+    "when": "editorTextFocus && !(editorLangId == ruby)",
     "args": {
-       "snippet": "console.log('${TM_SELECTED_TEXT}$1', ${TM_SELECTED_TEXT}$1);"
+        "snippet": "console.log('${TM_SELECTED_TEXT}$1', ${TM_SELECTED_TEXT}$1);"
+    }
+  },
+  {
+    "key": "ctrl+1",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus && editorLangId == ruby",
+    "args": {
+        "snippet": "puts '==========' \nputs `${TM_SELECTED_TEXT}$1, #{${TM_SELECTED_TEXT}$1.inspect}`\nputs '=========='"
     }
   },
   {
@@ -43,7 +51,7 @@
     "command": "workbench.action.previousEditor"
   },
   {
-    "key": "f3",
+    "key": "ctrl+2",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -51,9 +59,5 @@
     "key": "ctrl+oem_2",
     "command": "-editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+alt+l",
-    "command": "-turboConsoleLog.displayLogMessage"
   }
 ]
